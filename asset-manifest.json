@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.5f8e843c.chunk.css",
-  "main.js": "/static/js/main.e149a65c.chunk.js",
-  "main.js.map": "/static/js/main.e149a65c.chunk.js.map",
-  "static/js/1.fbee9149.chunk.js": "/static/js/1.fbee9149.chunk.js",
-  "static/js/1.fbee9149.chunk.js.map": "/static/js/1.fbee9149.chunk.js.map",
-  "static/js/2.e01ff66d.chunk.js": "/static/js/2.e01ff66d.chunk.js",
-  "static/js/2.e01ff66d.chunk.js.map": "/static/js/2.e01ff66d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.64c5eec7.js",
-  "runtime~main.js.map": "/static/js/runtime~main.64c5eec7.js.map",
-  "static/css/main.5f8e843c.chunk.css.map": "/static/css/main.5f8e843c.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.e00f8a5e998b7741cd10c11dda714fe8.js": "/precache-manifest.e00f8a5e998b7741cd10c11dda714fe8.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/joker/static/css/main.5f8e843c.chunk.css",
+  "main.js": "/joker/static/js/main.e149a65c.chunk.js",
+  "main.js.map": "/joker/static/js/main.e149a65c.chunk.js.map",
+  "static/js/1.fbee9149.chunk.js": "/joker/static/js/1.fbee9149.chunk.js",
+  "static/js/1.fbee9149.chunk.js.map": "/joker/static/js/1.fbee9149.chunk.js.map",
+  "static/js/2.e01ff66d.chunk.js": "/joker/static/js/2.e01ff66d.chunk.js",
+  "static/js/2.e01ff66d.chunk.js.map": "/joker/static/js/2.e01ff66d.chunk.js.map",
+  "runtime~main.js": "/joker/static/js/runtime~main.d042a23a.js",
+  "runtime~main.js.map": "/joker/static/js/runtime~main.d042a23a.js.map",
+  "static/css/main.5f8e843c.chunk.css.map": "/joker/static/css/main.5f8e843c.chunk.css.map",
+  "index.html": "/joker/index.html",
+  "precache-manifest.cd28e2dafa47010dc4acfd9badbd85fa.js": "/joker/precache-manifest.cd28e2dafa47010dc4acfd9badbd85fa.js",
+  "service-worker.js": "/joker/service-worker.js"
 }
