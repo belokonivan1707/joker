@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "25b9297a79bb9bdb77de",
+    "revision": "2657e2cf2e200a9f2b08",
     "url": "/joker/static/css/main.88ee9244.chunk.css"
   },
   {
-    "revision": "25b9297a79bb9bdb77de",
-    "url": "/joker/static/js/main.25b9297a.chunk.js"
+    "revision": "2657e2cf2e200a9f2b08",
+    "url": "/joker/static/js/main.2657e2cf.chunk.js"
   },
   {
     "revision": "95ea83b6c7492a61ef7b",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/joker/static/js/runtime~main.d06123f3.js"
   },
   {
-    "revision": "e84c697810ed060555681c22719486a2",
+    "revision": "1d40c805a7023e5573205b1341ea8ee6",
     "url": "/joker/index.html"
   }
 ];
