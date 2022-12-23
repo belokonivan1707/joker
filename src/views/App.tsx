@@ -17,7 +17,7 @@ import Banner from "../ui/components/banner/banner";
 const App = () => {
   return (
     <div style={{padding: '10px'}}>
-      <Banner words={['Привет, Олег!']}/>
+      <Banner words={['Привет, Олег!!']}/>
       <Banner words={['Надеюсь ты в отличном']} time={2000}/>
       <Banner words={['расположении духа!']} time={5000}/>
       <Banner words={['И скоро перейдешь к']} time={8000}/>
