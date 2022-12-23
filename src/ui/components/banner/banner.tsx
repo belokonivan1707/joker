@@ -15,7 +15,6 @@ const Banner: React.FC<IProps> = ({ words, repeatTime = 100000000, wordTime = 70
     const typeWriter = React.useCallback(
         (text: string, i: number, fnCallback: () => void) => {
             if (i < text.length) {
-                console.log(text.substring(0, i + 1))
                 setText(text.substring(0, i + 1));
                 
                 setTimeout(function () {
@@ -31,9 +30,6 @@ const Banner: React.FC<IProps> = ({ words, repeatTime = 100000000, wordTime = 70
     const startTextAnimation = React.useCallback(
         (i: number, array: string[]) => {
             if (array[i] === undefined) {
-                // setTimeout(() => {
-                //     startTextAnimation(0, array);
-                // }, repeatTime);
                 return;
             }
 

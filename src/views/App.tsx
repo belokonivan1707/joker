@@ -15,14 +15,17 @@ import { Income } from "./income/income";
 import Banner from "../ui/components/banner/banner";
 
 const App = () => {
+  useEffect(() => {
+    setInterval(() => {
+      window.location.reload();
+    }, 18000)
+  },[])
   return (
-    <div style={{padding: '10px'}}>
-      <Banner words={['Привет, Олег!!']}/>
-      <Banner words={['Надеюсь ты в отличном']} time={2000}/>
-      <Banner words={['расположении духа!']} time={5000}/>
-      <Banner words={['И скоро перейдешь к']} time={8000}/>
-      <Banner words={['следующему этапу!']} time={11000}/>
-      <Banner words={['Обнял и не приподнял!']} time={15000}/>
+    <div style={{padding: '10px', height: '100vh', background: 'mintcream'}}>
+      <Banner words={['Привіт, маю надію, що в тебе все добре!']}/>
+      <Banner words={['Якщо відчуваеш смуту, бажаю тобі світла!']} time={4500}/>
+      <Banner words={['Впевненного настрою тобі, та доброго вечора!']} time={9000}/>
+      <Banner words={['P.S. - відправив тобі пісню']} time={14000}/>
     </div>
   );
 }
