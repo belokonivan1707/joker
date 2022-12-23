@@ -1,5 +1,5 @@
-import React from "react";
-import {
+import React, { useEffect } from "react";
+import { 
   BrowserRouter,
   Routes,
   Route,
@@ -11,21 +11,17 @@ import {
 } from "react-router-dom";
 import { AppBar } from "../ui/components/app-bar/app-bar";
 import { APP_ROUTES, IAppRoutes } from "../common/routes/app-routes";
+import { Income } from "./income/income";
+import Banner from "../ui/components/banner/banner";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      {/* <AppBar /> */}
-      <Routes>
-        {APP_ROUTES.map((route: IAppRoutes, index: number) => (
-          <Route
-            key={index}
-            path={route.path}
-            element={route.element}
-          />
-        ))}
-      </Routes>
-    </BrowserRouter>
+    <div style={{padding: '10px'}}>
+      <Banner words={['Привет, Олег!']}/>
+      <Banner words={['Надеюсь ты в отличном расположении духа!']} time={2500}/>
+      <Banner words={['И скоро перейдешь к следующему этапу!']} time={8000}/>
+      <Banner words={['Обнял и не приподнял!']} time={12000}/>
+    </div>
   );
 }
 

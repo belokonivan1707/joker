@@ -10,6 +10,6 @@ export interface IAppRoutes {
 
 export const APP_ROUTES = [
     { path: '/', title: 'home', element: <Home /> },
-    { path: '/income', title: 'income', element: <Income /> },
+    { path: '/', title: 'home', element: <Income /> },
     { path: '/test-route', title: 'test route', element: '<h1>Test Route</h1>' },
 ]
